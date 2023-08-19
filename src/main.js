@@ -28,7 +28,6 @@ button.addEventListener("click", ()=> {
     }
 
     if (weight.value.length == "" | height.value.length == "") {
-        result.classList.add("error")
         result.innerHTML= `Não foi possível calcular seu imc, você precisa preencher todos os campos necessários`
         weight.focus()
     }

@@ -59,10 +59,4 @@ button:hover {
     border: none;
 }
 
-.error {
-    color: red;
-}
 
-.error-input {
-    border: 1px solid red;
-}
