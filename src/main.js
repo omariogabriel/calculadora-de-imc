@@ -15,11 +15,11 @@ button.addEventListener("click", ()=> {
     }
 
 
-    if (imc >=18.5 | imc < 24.9) {
+    if (imc >=18.5 & imc < 24.9) {
         result.innerHTML= `Seu imc é ${parseInt(imc)}, você está no peso ideal!`
     }
 
-    if (imc >=25 | imc < 29.9) {
+    if (imc >=25 & imc < 29.9) {
         result.innerHTML= `Seu imc é ${parseInt(imc)}, você está com sobrepeso!`
     }
 
